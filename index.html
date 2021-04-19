@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <script src="assets/jquery/jquery.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <script src="assets/js/index.js"></script>
+    <title>shop</title>
+</head>
+<body>
+    
+    <div class="app">
+    <!-- **************************************************************** -->
+    <!-- header -->
+        <div class="header container-fluid">
+            <div class="header__tablet ">
+                <ul class="nav header__tablet-nav">
+                    <li class="nav-item header__tablet-nav--item">
+                        <a href="#" class="nav-link header__tablet-nav--item--link">Liên quan</a>
+                    </li>
+                    <li class="nav-item header__tablet-nav--item">
+                        <a href="#" class="nav-link header__tablet-nav--item--link">Mới nhất</a>
+                    </li>
+                    <li class="nav-item header__tablet-nav--item">
+                        <a href="#" class="nav-link header__tablet-nav--item--link">Bán chạy</a>
+                    </li>
+                    <li class="nav-item header__tablet-nav--item">
+                        <a href="#" class="nav-link header__tablet-nav--item--link">Giá</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- ************************************************************************************************ -->
+            <div class="container-fluid">
+                <nav class="header__navbar d-flex justify-content-between container-fluid">
+                    <ul class="header__navbar-list header__navbar-list--left hide-on-tablet hide-on-mobie">
+                        <li class="header__navbar-item header__navbar-item--qr separate1 "> 
+                            <span class="header__navbar-item-text">Vào cửa hàng trên ứng dụng</span> 
+                            <div class="header__qr">
+                                <img src="assets/image/qrcode.png" alt="qr_code" class="header__qr-code">
+                                <div class="header__qr-apps d-flex">
+                                    <a href="#" class="header__qr-apps-link">
+                                        <img src="assets/image/app_store.png" alt="app_store" class="header__qr-apps-download">
+                                    </a>
+                                    <a href="#" class="header__qr-apps-link">
+                                        <img src="assets/image/google_play.png" alt="google_play" class="header__qr-apps-download">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item"> 
+                            <span class="header__navbar-item-text">Kết nối</span> 
+                            <a href="#"><span><i class="fab fa-facebook header__icon"></i></span></a> 
+                            <a href="#"><span><i class="fab fa-instagram header__icon"></i></span></a> </li>
+                    </ul>
+                    <ul class="header__navbar-list header__navbar-list--right hide-on-tablet hide-on-mobie">
+                        <li class="header__navbar-item header__navbar-item-notify">
+                            <span><i class="far fa-bell header__icon"></i></span> 
+                            <a href="#" class="header__navbar-item-link header__navbar-item-notify">
+                                <span class="header__navbar-item-text">Thông báo</span> </a>
+                                <div class="header__navbar-item-notify--hover">
+
+                                </div>
+
+                            <!-- header notification -->
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item">
+                                        <a href="#" class="header__notify-link">
+                                            <div >
+                                                <img src="/assets/image/notify.jpg" alt="img-notify" class="header__notify-link-img">
+                                                <span class="header__notify-link-title">title</span>
+                                            </div>
+                                            <span class="header__notify-link-description">description</span>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="#" class="header__notify-link">
+                                            <div>
+                                                <img src="/assets/image/notify.jpg" alt="img-notify" class="header__notify-link-img">
+                                            <span class="header__notify-link-title">title</span>
+                                            </div>
+                                            <span class="header__notify-link-description">description</span>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="#" class="header__notify-link">
+                                            <div>
+                                                <img src="/assets/image/notify.jpg" alt="img-notify" class="header__notify-link-img">
+                                            <span class="header__notify-link-title">title</span>
+                                            </div>
+                                            <span class="header__notify-link-description">description</span>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="#" class="header__notify-link">
+                                            <div>
+                                                <img src="/assets/image/notify.jpg" alt="img-notify" class="header__notify-link-img">
+                                            <span class="header__notify-link-title">title</span>
+                                            </div>
+                                            <span class="header__notify-link-description">description</span>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="#" class="header__notify-link">
+                                            <div>
+                                                <img src="/assets/image/notify.jpg" alt="img-notify" class="header__notify-link-img">
+                                            <span class="header__notify-link-title">title</span>
+                                            </div>
+                                            <span class="header__notify-link-description">description</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="header__notify-footer">
+                                    <a class="header__notify-footer-text" href="#"><h4>Xem tất cả</h4></a>
+                                </div>
+                            </div>
+                        </li>
+
+                    <!--  -->
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-item-link">Trợ giúp </a>
+                            <span><i class="far fa-question-circle header__icon"></i></span> 
+                        </li>
+
+                        <!-- login -->
+                        <!-- <li class="header__navbar-item header__navbar-user">
+                            <i class="fas fa-user header__navbar-user--avatar"></i>
+                            <span class="header__navbar-user--name">Nguyễn Thiện Quang</span>
+                        </li> -->
+
+                        <!-- chưa login -->
+                        <li class="header__navbar-item">
+                            <a href="#" id="modal-register" class="header__navbar-item-link separate2" 
+                            data-toggle="modal" data-target="#myModal-register">Đăng Ký</a>
+
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#" id="modal-login" class="header__navbar-item-link separate2" 
+                            data-toggle="modal" data-target="#myModal-login">Đăng Nhập</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="header__with-search grid container-fluid">
+                <div class="header__mobie">
+                    <label for="header__mobie-bar" class="header__mobie-bar"><i class="fas fa-bars header__mobie-bar--icon"></i></label>
+                    <label for="header__mobie-search" class="header__mobie-search"><i class="fas fa-search header__mobie-search--icon"></i></label>
+                </div>
+                <div class="header__logo">
+                    <span>
+                        <a href="index.html"><img src="assets/image/logo.png" alt="logo" class="header__logo-img"></a>
+                    </span>
+                    
+                </div>
+
+                <input type="checkbox" class="header__mobie-search--check" hidden id="header__mobie-search">
+                <div class="header__search">
+                    <div class="header__search-wrap">
+                        <input type="text" class="header__search-wrap--input" placeholder="Tìm kiếm sản phẩm . . ." id="search">
+                        <div class="header__search-history">
+                            <h3 class="header__search-history--title">Lịch sử tìm kiếm</h3>
+                            <ul class="header__search-history--list">
+                                <li class="header__search-history--item">
+                                    <a href="">Đồng hồ nam</a>
+                                </li>
+                                <li class="header__search-history--item">
+                                    <a href="">Đồng hồ nam</a>
+                                </li>
+                                <li class="header__search-history--item">
+                                    <a href="">Đồng hồ nam</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__search-select">
+                        <span class="header__search-select--label">Trong shop
+                            <i class="header__search-select--icon fas fa-chevron-down"></i></span>
+                        <ul class="header__search-option">
+                            <li class="header__search-option--item">
+                                <span>Tất cả sản phẩm</span>
+                                <i class="fas fa-check"></i>
+                            </li>
+                            <li class="header__search-option--item">
+                                <span>Sản phẩm nổi bật</span>
+                                <!-- <i class="fas fa-check"></i> -->
+                            </li>
+                            <li class="header__search-option--item">
+                                <span>Sản phẩm mới về</span>
+                                <!-- <i class="fas fa-check"></i> -->
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="header__search-btn"><i class="header__search-btn--icon fas fa-search"></i></button>
+                </div> 
+                <div class="header__cart">
+                    <div class="header__cart-wrap">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-wrap--count">0</span>
+                            <div class="header__cart-list">
+                                <!-- <div>
+                                    <i class="fas fa-cart-plus header__cart-list--icon"></i>
+                                    <span class="header__cart-list--title">Chưa có sản phẩm nào</span>
+                                </div> -->
+                                <div class="header__cart-item">
+                                    <h4 class="header__cart-item--title">Sản phẩm đã thêm</h4>
+                                    <ul class="nav header__cart-item--nav">
+                                        <li class="nav-item header__cart-item--item">
+                                            <img class="header__cart-item--item--img" src="assets/image/body_img_lt.jpg" alt="img">
+                                            <div class="header__cart-item--item--info">
+                                                <div class="header__cart-item--info--head">
+                                                    <h5 class="header__cart-item--info--name">Laptop MSI Modern 14 A10M 692VN Dark GrayLaptop MSI Modern 14 A10M 692VN Dark GrayLaptop MSI Modern 14 A10M 692VN Dark Gray</h5>
+                                                    <span class="header__cart-item--info--price">18.299.000đ</span>
+                                                    <span class="header__cart-item--info--multiple">x</span>
+                                                    <span class="header__cart-item--info--quantity">1</span>
+                                                </div>
+                                                <div class="header__cart-item--info--body">
+                                                    <span class="header__cart-item--info--delete">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item header__cart-item--item">
+                                            <img class="header__cart-item--item--img" src="assets/image/body_img_lt.jpg" alt="img">
+                                            <div class="header__cart-item--item--info">
+                                                <div class="header__cart-item--info--head">
+                                                    <h5 class="header__cart-item--info--name">Laptop MSI Modern 14 A10M 692VN Dark Gray</h5>
+                                                    <span class="header__cart-item--info--price">18.299.000đ</span>
+                                                    <span class="header__cart-item--info--multiple">x</span>
+                                                    <span class="header__cart-item--info--quantity">1</span>
+                                                </div>
+                                                <div class="header__cart-item--info--body">
+                                                    <span class="header__cart-item--info--delete">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                    <div>
+                                        <button class="btn header__cart-item--button">
+                                            <span>Xem giỏ hàng</span> 
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    <!-- **************************************************************** -->
+    <!-- content -->
+        <div class="content container-fluid" style="width: 100%;">
+            <div class="row content__row container-fluid" id="content__row" style="width: 100%;">
+                <!-- col left -->
+                <input type="checkbox" class="header__mobie-bar--check" hidden id="header__mobie-bar">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 content__left hide-on-tablet container-fluid">
+                    <h3 class="content__left-title">
+                        <i class="fas fa-bars"></i>
+                        <span>Danh Mục</span>
+                    </h3> 
+                    <ul class="nav flex-column content__left-nav"><span class="content__left-nav--title">Laptop</span> 
+                            <li class="nav-item content__left-nav--item content__left-nav--item--active">
+                              <a class="nav-link content__left-nav--link" href="#">Laptop DELL</a>
+                            </li>
+                            <li class="nav-item content__left-nav--item">
+                              <a class="nav-link content__left-nav--link" href="#">Laptop ASUS</a>
+                            </li>
+                            <li class="nav-item content__left-nav--item">
+                              <a class="nav-link content__left-nav--link" href="#">Laptop HP</a>
+                            </li>
+                            <li class="nav-item content__left-nav--item">
+                              <a class="nav-link content__left-nav--link" href="#">Laptop LENOVO</a>
+                            </li>
+                            <li class="nav-item content__left-nav--item">
+                              <a class="nav-link content__left-nav--link" href="#">Laptop MSI - Gaming</a>
+                            </li>
+                    </ul>
+                    <ul class="nav flex-column content__left-nav"><span class="content__left-nav--title">SmartPhone</span>
+                            <li class="nav-item content__left-nav--item">
+                              <a class="nav-link content__left-nav--link" href="#">Apple</a>
+                            </li>
+                            <li class="nav-item content__left-nav--item">
+                              <a class="nav-link content__left-nav--link" href="#">Samsung</a>
+                            </li>
+                            <li class="nav-item content__left-nav--item">
+                              <a class="nav-link content__left-nav--link" href="#">Oppo</a>
+                            </li>
+                            <li class="nav-item content__left-nav--item">
+                              <a class="nav-link content__left-nav--link" href="#">Xiaomi</a>
+                            </li>
+                            <li class="nav-item content__left-nav--item">
+                              <a class="nav-link content__left-nav--link" href="#">Huawei</a>
+                            </li>
+                    </ul>
+                    <ul class="nav flex-column content__left-nav"><span class="content__left-nav--title">Phụ kiện</span>
+                            <li class="nav-item content__left-nav--item">
+                              <a class="nav-link content__left-nav--link" href="#">Đồng hồ</a>
+                            </li>
+                            <li class="nav-item content__left-nav--item">
+                              <a class="nav-link content__left-nav--link" href="#">Tai nghe không dây</a>
+                            </li>
+                            <li class="nav-item content__left-nav--item">
+                              <a class="nav-link content__left-nav--link" href="#">Tai nghe có dây</a>
+                            </li>
+                            <li class="nav-item content__left-nav--item">
+                              <a class="nav-link content__left-nav--link" href="#">Phụ kiện Laptop</a>
+                            </li>
+                            <li class="nav-item content__left-nav--item">
+                              <a class="nav-link content__left-nav--link" href="#">Phụ kiện Smartphone</a>
+                            </li>
+                    </ul>
+                </div>
+                        
+                <!-- col right -->
+                <div class="col-xs col-sm col-md col-lg content__right container-fluid" id="content__right">
+                    <!-- col sort -->
+                        <div class=" row content__right-sort hide-on-tablet hide-on-mobie">
+                            
+                                <div class="content__right-sort--start">
+                                    <span>Sắp xếp theo</span>
+                                    <button class="content__right-sort--btn content__right-sort--active">Phổ Biến</button>
+                                    <button class="content__right-sort--btn">Mới Nhất</button>
+                                    <button class="content__right-sort--btn">Bán chạy</button>
+                                    <div class="dropdown">
+                                        <button type="button" class="dropdown-toggle content__right-sort--btn content__right-sort--btndropdown" data-toggle="dropdown">
+                                        Giá
+                                        </button>
+                                        <div class="dropdown-menu content__right-sort--start--dropdown">
+                                        <a class="dropdown-item active" href="#">Giá: Thấp đến cao</a>
+                                        <a class="dropdown-item" href="#">Giá: Cao đến Thấp</a>
+                                        </div>
+                                    </div>    
+                                </div>
+                                <div class="content__right-sort--end">
+                                    <span class="content__right-sort--page">1/5</span>
+                                    <button class="content__right-sort--movepage"><i class="fas fa-angle-left"></i></button>
+                                    <button class="content__right-sort--movepage"><i class="fas fa-angle-right"></i></button>
+
+                                </div>
+                            
+                        </div>
+
+                    <!-- col item -->    
+                        <div class="content__right-body">
+                            <!-- row 1 -->
+                            <div class=" row content__right-row" id="content__right-row">
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img_lt.jpg" alt="img">
+                                    </div>
+                                    
+                                    <span class="content__right-row--item--name">Laptop MSI Modern 14 A10M 692VN Dark Gray</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span>20.128.900
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span>18.299.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- ******************************* -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img_lt.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Laptop MSI Modern 14 A10M 692VN Dark Gray</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span>20.128.900
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span>18.299.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- ******************************* -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img_lt.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Laptop MSI Modern 14 A10M 692VN Dark Gray</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span>20.128.900
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span>18.299.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- **************************** -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img_lt.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Laptop MSI Modern 14 A10M 692VN Dark Gray</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span>20.128.900
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span>18.299.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- ******************************* -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img_lt.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Laptop MSI Modern 14 A10M 692VN Dark Gray</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span>20.128.900
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span>18.299.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                            </div>       
+
+                            <!-- row 2 -->
+                            <div class="row content__right-row">
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img_sp.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Xiaomi Mi 11 5G</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span>19.900.000
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span>18.760.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- ******************************* -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img_sp.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Xiaomi Mi 11 5G</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span>19.900.000
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span>18.760.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- ******************************* -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img_sp.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Xiaomi Mi 11 5G</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span>19.900.000
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span>18.760.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- **************************** -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img_sp.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Xiaomi Mi 11 5G</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span>19.900.000
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span>18.760.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- ******************************* -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img_sp.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Xiaomi Mi 11 5G</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span>19.900.000
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span>18.760.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                            </div>
+
+                            <!-- row 3 -->
+                            <div class="row content__right-row">
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Đồng hồ thông minh Xiaomi Mi Watch</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span> 4.600.000
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span> 4.300.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- ******************************* -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Đồng hồ thông minh Xiaomi Mi Watch</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span> 4.600.000
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span> 4.300.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- ******************************* -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img_lt.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Đồng hồ thông minh Xiaomi Mi Watch</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span> 4.600.000
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span> 4.300.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- **************************** -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img_lt.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Đồng hồ thông minh Xiaomi Mi Watch</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span> 4.600.000
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span> 4.300.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- ******************************* -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img_lt.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Đồng hồ thông minh Xiaomi Mi Watch</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span> 4.600.000
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span> 4.300.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                            </div>
+
+                            <!-- row 4 -->
+                            <div class="row content__right-row">
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Đồng hồ thông minh Xiaomi Mi Watch</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span> 4.600.000
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span> 4.300.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- ******************************* -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Đồng hồ thông minh Xiaomi Mi Watch</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span> 4.600.000
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span> 4.300.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- ******************************* -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Đồng hồ thông minh Xiaomi Mi Watch</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span> 4.600.000
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span> 4.300.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- **************************** -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Đồng hồ thông minh Xiaomi Mi Watch</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span> 4.600.000
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span> 4.300.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                                <!-- ******************************* -->
+
+                                <div class="col-xs col-sm col-md col-lg content__right-row--item">
+                                    <div class="content__right-row--sale">
+                                        <span class="content__right-row--sale--count">10%</span>
+                                        <span class="content__right-row--sale--text">GIẢM</span>
+                                    </div>
+                                    <div class="content__right-row--item--divimg">
+                                        <img class="content__right-row--item--img" src="assets/image/body_img.jpg" alt="img">
+                                    </div>
+                                    <span class="content__right-row--item--name">Đồng hồ thông minh Xiaomi Mi Watch</span>
+                                    <span class="content__right-row--item--priceold">
+                                        <span class="content__right-row--item--unit">₫</span> 4.600.000
+                                    </span>
+                                    <span class="content__right-row--item--pricenew">
+                                        <span class="content__right-row--item--unit">₫</span> 4.300.000
+                                    </span>
+                                    <span class="content__right-row--item--heart"><i class="far fa-heart"></i></span>
+                                    <div class="content__right-row--item--rate">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>            
+                                    <span class="content__right-row--item--info">Đã bán 120</span>
+                                    <span class="content__right-row--item--place">Hà Nội</span>
+                                </div>
+                            </div>
+                            <!-- move page -->
+                            <div class="content__movepage d-flex justify-content-center">
+                                <ul class="nav content__movepage-nav">
+                                    <li class="nav-item nav content__movepage-nav--item">
+                                        <a class="nav-link content__movepage-nav--link" href="#"><i class="fas fa-chevron-left"></i></a>
+                                    </li>
+                                    <li class="nav-item nav content__movepage-nav--item">
+                                        <a class="nav-link content__movepage-nav--link" href="#">1</a>
+                                    </li>
+                                    <li class="nav-item nav content__movepage-nav--item">
+                                        <a class="nav-link content__movepage-nav--link" href="#">2</a>
+                                    </li>
+                                    <li class="nav-item nav content__movepage-nav--item">
+                                        <a class="nav-link content__movepage-nav--link" href="#">3</a>
+                                    </li>
+                                    <li class="nav-item nav content__movepage-nav--item">
+                                        <a class="nav-link content__movepage-nav--link" href="#">4</a>
+                                    </li>
+                                    <li class="nav-item nav content__movepage-nav--item">
+                                        <a class="nav-link content__movepage-nav--link" href="#">5</a>
+                                    </li>
+                                    <li class="nav-item nav content__movepage-nav--item">
+                                        <a class="nav-link content__movepage-nav--link disabled" href="#">...</a>
+                                    </li>
+                                    <li class="nav-item nav content__movepage-nav--item">
+                                        <a class="nav-link content__movepage-nav--link" href="#"><i class="fas fa-chevron-right"></i></a>
+                                    </li>
+                                </ul>
+                            </div>      
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+
+    <!-- **************************************************************** -->
+    <!-- footer -->
+        <div class="footer container-fluid">
+            <div class="footer__hr"></div>
+            <div class="footer__info">
+
+                <!-- **************************************************************** -->
+                <div class="container footer__info-contact">
+                    <div class="row">
+                        <div class="col-xs col-sm col-md col-lg footer__info-col">
+                            <span class="footer__info-col--title">CHĂM SÓC KHÁCH HÀNG</span>
+                            <ul class="nav footer__info-col--nav flex-column">
+                                <li class="nav-item footer__info-col--item">
+                                  <a class="nav-link footer__info-col--link" href="#">Trung tâm trợ giúp</a>
+                                </li>
+                                <li class="nav-item footer__info-col--item">
+                                  <a class="nav-link footer__info-col--link" href="#">Hướng dẫn mua hàng</a>
+                                </li>
+                                <li class="nav-item footer__info-col--item">
+                                  <a class="nav-link footer__info-col--link" href="#">Thanh toán</a>
+                                </li>
+                                <li class="nav-item footer__info-col--item">
+                                  <a class="nav-link footer__info-col--link" href="#">Trả hàng & hoàn tiền</a>
+                                </li>
+                                <li class="nav-item footer__info-col--item">
+                                  <a class="nav-link footer__info-col--link" href="#">Chăm sóc khách hàng</a>
+                                </li>
+                                <li class="nav-item footer__info-col--item">
+                                  <a class="nav-link footer__info-col--link" href="#">Chính sách bảo hành</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- ******************************* -->
+
+                        <div class="col-xs col-sm col-md col-lg footer__info-col">
+                            <span class="footer__info-col--title">VỀ CHÚNG TÔI</span>
+                            <ul class="nav footer__info-col--nav flex-column">
+                                <li class="nav-item footer__info-col--item">
+                                  <a class="nav-link footer__info-col--link" href="#">Giới thiệu</a>
+                                </li>
+                                <li class="nav-item footer__info-col--item">
+                                  <a class="nav-link footer__info-col--link" href="#">Tuyển dụng</a>
+                                </li>
+                                <li class="nav-item footer__info-col--item">
+                                  <a class="nav-link footer__info-col--link" href="#">Điều khoản</a>
+                                </li>
+                                <li class="nav-item footer__info-col--item">
+                                  <a class="nav-link footer__info-col--link" href="#">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- ******************************** -->
+
+                        <div class="col-xs col-sm col-md col-lg footer__info-col">
+                            <span class="footer__info-col--title">THEO DÕI CHÚNG TÔI TRÊN</span>
+                            <ul class="nav footer__info-col--nav flex-column">
+                                <li class="nav-item footer__info-col--item">
+                                  <a class="nav-link footer__info-col--link" href="#">
+                                    <span class="footer__info-col--link--icon"><i class="fab fa-facebook"></i></span>
+                                    <span class="footer__info-col--link--text">Facebook</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item footer__info-col--item">
+                                  <a class="nav-link footer__info-col--link" href="#">
+                                    <span class="footer__info-col--link--icon"><i class="fab fa-instagram"></i></span>
+                                    <span class="footer__info-col--link--text">Instagram</span>
+                                  </a>
+                                </li>
+                                <li class="nav-item footer__info-col--item">
+                                  <a class="nav-link footer__info-col--link" href="#">
+                                    <span class="footer__info-col--link--icon"><i class="fab fa-youtube"></i></span>
+                                    <span class="footer__info-col--link--text">Youtube</span>
+                                  </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- ******************************** -->
+
+                        <div class="col-xs col-sm col-md col-lg footer__info-col">
+                            <span class="footer__info-col--title">TẢI ỨNG DỤNG NHANH</span>
+                            <div class="row footer__info-col--last">
+                                <div class="col-xs col-sm col-md col-lg">
+                                    <img src="assets/image/qrcode.png" alt="img" class="footer__info-col--img">
+                                </div>
+                                <div class="col-sm footer__info-col--right">
+                                    <ul class="nav footer__info-col--nav flex-column footer__info-col--nav--last">
+                                        <li class="nav-item footer__info-col--item">
+                                          <a class="nav-link footer__info-col--link" href="#">
+                                              <span class="footer__info-col--link--icon"><i class="fab fa-app-store-ios"></i></span>
+                                              <span class="footer__info-col--link--text">App Store</span>
+                                          </a>
+                                        </li>
+                                        <li class="nav-item footer__info-col--item">
+                                          <a class="nav-link footer__info-col--link" href="#">
+                                            <span class="footer__info-col--link--icon"><i class="fab fa-google-play"></i></span>
+                                            <span class="footer__info-col--link--text">Google Play</span>
+                                          </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- **************************************************************** -->
+                <div class="footer__info-middle">
+
+                </div>
+
+                <!-- **************************************************************** -->
+                <div class="footer__info-end">
+                    <div class="container">
+                        <ul class="footer__info-end--nav d-flex justify-content-around ">
+                            <li><span class="footer__info-end--title">CHÍNH SÁCH BẢO MẬT</span></li>
+                            <li><span class="footer__info-end--title">QUY CHẾ HOẠT ĐỘNG</span></li>
+                            <li><span class="footer__info-end--title">CHÍNH SÁCH VẬN CHUYỂN</span></li>
+                            <li><span class="footer__info-end--title">CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN</span></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- **************************************************************** -->
+    <!-- Modal Register-->
+    <div class="modal fade" id="myModal-register">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Đăng Ký</h4>
+              <a href="#" id="modal-login" class="modal-title" 
+                            data-toggle="modal" data-target="#myModal-login" data-dismiss="modal">Đăng Nhập</a>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form> 
+                    <div class="form-group">
+                        <input type="email" class="form-control modal-body__input " placeholder="Nhập Email" >
+                    </div>
+                    <div class="form-group ">
+                        <input type="password" class="form-control modal-body__input" placeholder="Nhập Mật Khẩu" >
+                    </div>
+                    <div class="form-group ">
+                        <input type="password" class="form-control modal-body__input" placeholder="Nhập Lại Mật Khẩu" >
+                    </div>
+                    <div class="form-group modal-body__form--check">
+                        <label class="form-check-label modal-body__input--check">
+                                Bằng việc đăng ký bạn đã đồng ý với 
+                                <a href="#" class="modal-body__link">Điều khoản dịch vụ</a> &
+                                <a href="#" class="modal-body__link">Chính sách bảo mật</a> của chúng tôi.
+                        </label>
+                    </div>
+                    <div class="form-group modal-body__button">
+                        <input type="submit" class="form-control" class="modal-body__button--submit" value="ĐĂNG KÝ">
+                    </div>
+                </form>
+                <div class="row modal-body__connect">
+                    <div class="col modal-body__link--facebook">
+                        <a href="#" class="modal-body__link ">
+                            <span class="modal-body__link--icon"><i class="fab fa-facebook-square modal-body__link--icon"></i></span>
+                            <span class="modal-body__link--text">Kết nối với Facebook</span>
+                        </a>
+                    </div>
+                    <div class="col modal-body__link--google">
+                        <a href="#" class="modal-body__link ">
+                            <span class="modal-body__link--icon"><i class="fab fa-google modal-body__link--icon"></i></span>
+                            <span class="modal-body__link--text">Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn modal-footer__close" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+    </div>
+
+
+    <!-- **************************************************************** -->
+    <!-- Modal Login-->
+    <div class="modal fade" id="myModal-login">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Đăng Nhập</h4>
+              <a href="#" id="modal-login" class="modal-title" 
+                            data-toggle="modal" data-target="#myModal-register" data-dismiss="modal">Đăng Ký</a>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form> 
+                    <div class="form-group">
+                        <input type="email" class="form-control modal-body__input" placeholder="Email/Số Điện thoại/Tên đăng nhập">
+                    </div>
+                    <div class="form-group ">
+                        <input type="password" class="form-control modal-body__input" placeholder=" Mật Khẩu">
+                    </div>
+                    <div class="form-group form-check modal-body__form--check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox"> Nhớ Mật Khẩu
+                        </label>
+                      </div>
+                    <div class="form-group modal-body__button">
+                        <input type="submit" class="form-control" id="submit" class="modal-body__button--submit" value="ĐĂNG NHẬP">
+                    </div>
+                </form>
+                <div class="modal-body__aside">
+                    <div class="modal-body__help">
+                        <a href="#" class="modal-body__help--link">Quên mật khẩu</a>
+                        <span class="modal-body__help--separator"></span>
+                        <a href="#" class="modal-body__help--link">Cần trợ giúp?</a>
+                    </div>
+                </div>
+                <div class="row modal-body__connect">
+                    <div class="col modal-body__link--facebook">
+                        <a href="#" class="modal-body__link" id="connect">
+                            <span class="modal-body__link--icon"><i class="fab fa-facebook-square modal-body__link--icon"></i></span>
+                            <span class="modal-body__link--text">Kết nối với Facebook</span>
+                        </a>
+                    </div>
+                    <div class="col modal-body__link--google">
+                        <a href="#" class="modal-body__link" id="connect">
+                            <span class="modal-body__link--icon"><i class="fab fa-google modal-body__link--icon"></i></span>
+                            <span class="modal-body__link--text">Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn modal-footer__close" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+    </div>
+</body>
+</html>
